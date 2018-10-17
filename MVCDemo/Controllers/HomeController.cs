@@ -37,7 +37,7 @@ namespace MVCDemo.Controllers
                 using (SqlConnection con = new SqlConnection())
                 {
                     String sql = @"select * from publishers";
-                    con.ConnectionString = @"Server=comp1630.database.windows.net;Database=pubs;User Id=readonlylogin;Password=1231!ABCD;";
+                    con.ConnectionString = @"Server=comp1630.database.windows.net;Database=pubs;User Id=readonlylogin;Password=;";
 
 
                     DataTable dt = new DataTable();
